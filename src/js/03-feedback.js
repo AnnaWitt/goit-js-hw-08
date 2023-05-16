@@ -1,4 +1,4 @@
-import throttle from "lodash.throttle";
+import throttle from 'lodash.throttle';
 
 const form = document.querySelector('.feedback-form');
 const emailInput = form.querySelector('input[name="email"]');
@@ -31,4 +31,8 @@ form.addEventListener('submit', event => {
 
   emailInput.value = '';
   messageInput.value = '';
+
+  console.log('email:', emailInput.value);
+  console.log('message:', messageInput.value);
 });
+

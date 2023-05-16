@@ -1,8 +1,8 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-08",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/AnnaWitt/goit-js-hw-08",
+  "homepage": "https://annawitt.github.io/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
@@ -12,10 +12,10 @@
     "url": "git+https://github.com/AnnaWitt/goit-js-hw-08.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Anna Witt <anna.witt06@wp.pl>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnnaWitt/goit-js-hw-08.git"
+    "url": "https://github.com/AnnaWitt/goit-js-hw-08/issues"
   },
   "dependencies": {
     "@vimeo/player": "^2.19.0",
