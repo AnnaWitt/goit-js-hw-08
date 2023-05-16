@@ -26,13 +26,14 @@ window.addEventListener('load', () => {
 
 form.addEventListener('submit', event => {
   event.preventDefault();
-
+  console.log('email:', emailInput.value);
+  console.log('message:', messageInput.value);
+  
   localStorage.removeItem(LOCALSTORAGE_KEY);
 
   emailInput.value = '';
   messageInput.value = '';
 
-  console.log('email:', emailInput.value);
-  console.log('message:', messageInput.value);
+  
 });
 
